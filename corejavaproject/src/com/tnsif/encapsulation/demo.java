@@ -1,0 +1,40 @@
+package com.tnsif.encapsulation;
+
+
+
+public class demo{
+
+        // properties
+        private int id;
+        private String name;
+        
+        //getter and setter method
+        
+        public int getId() {
+                return id;
+        }
+        public void setId(int id) {
+                this.id = id;
+        }
+        
+        public String getName() {
+                return name;
+        }
+        public void setName(String name) {
+                this.name = name;
+        }
+        
+        public static void main(String[] args) {
+                demo e1=new demo();
+                
+                //setting the value using setters
+                e1.setId(103);
+                e1.setName("hamsa");
+                
+                //getting the values using getters
+                System.out.println(e1.getId());
+                System.out.println(e1.getName());
+        }
+        
+        
+}
